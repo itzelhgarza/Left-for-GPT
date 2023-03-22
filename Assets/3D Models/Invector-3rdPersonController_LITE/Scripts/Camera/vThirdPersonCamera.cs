@@ -51,8 +51,8 @@ public class vThirdPersonCamera : MonoBehaviour
     private float checkHeightRadius = 0.4f;
     private float clipPlaneMargin = 0f;
     private float forward = -1f;
-    private float xMinLimit = -360f;
-    private float xMaxLimit = 360f;
+    private float xMinLimit = 0f;
+    private float xMaxLimit = 180f;
     private float cullingHeight = 0.2f;
     private float cullingMinDist = 0.1f;
 
