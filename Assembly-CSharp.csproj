@@ -44,9 +44,13 @@
      <Compile Include="Assets\3D Models\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
      <Compile Include="Assets\3D Models\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Gun.cs" />
+     <Compile Include="Assets\Scripts\Menu - Copy.cs" />
      <Compile Include="Assets\3D Models\Invector-3rdPersonController_LITE\Scripts\CharacterController\vThirdPersonController.cs" />
      <Compile Include="Assets\3D Models\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
+     <Compile Include="Assets\Scripts\Menu.cs" />
      <Compile Include="Assets\3D Models\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
+     <Compile Include="Assets\Bullet.cs" />
      <None Include="Assets\3D Models\Invector-3rdPersonController_LITE\README_Basic.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity Hub\2021.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
