@@ -375,6 +375,7 @@
 "Assets/3D Models/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vExtensions.cs"
 "Assets/3D Models/Invector-3rdPersonController_LITE/Scripts/Generic/Utils/vPickupItem.cs"
 "Assets/Bullet.cs"
+"Assets/canvas.cs"
 "Assets/Gun.cs"
 "Assets/Scripts/AIEnemyNav.cs"
 "Assets/Scripts/enemigo1.cs"

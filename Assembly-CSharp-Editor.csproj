@@ -753,6 +753,9 @@
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
@@ -768,11 +771,17 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="Unity.ProBuilder.Editor">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -783,11 +792,23 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Autodesk.Fbx">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Polybrush.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
@@ -795,14 +816,26 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TerrainTools">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.TerrainTools.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TerrainTools.Editor">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Environments">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -812,6 +845,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.Fbx.Editor">
+        <HintPath>C:\Users\Hugo Rivera\Documents\Universidad\Ciclo ene-ago 2023 ISW\Top\Left-for-GPT\Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
