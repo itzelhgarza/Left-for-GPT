@@ -16,13 +16,14 @@ public class ManipuladorVida : MonoBehaviour
         playerVida = GameObject.FindWithTag("Player").GetComponent<BarraDeVida>();
     }
 
-    private void OnTriggerStay(Collider other)
+    public void OnTriggerStay(Collider other)
     {
         if(other.tag == "Player")
         {
             currentDamageTime += Time.deltaTime;
             if(currentDamageTime > damageTime)
             {
+                print(playerVida);
                 playerVida.vida += cantidad;
                 currentDamageTime = 0.0f;
             }
