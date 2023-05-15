@@ -40,6 +40,7 @@ public class AIEnemyNav : MonoBehaviour
     }
     void Start()
     {
+        movePositionTransform=GameObject.FindWithTag("Player").GetComponent<Transform>();
         navMeshAgent=GetComponent<NavMeshAgent>();
     }
 
