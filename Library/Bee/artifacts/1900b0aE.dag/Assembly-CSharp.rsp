@@ -380,6 +380,7 @@
 "Assets/Scripts/AIEnemyNav.cs"
 "Assets/Scripts/BarraDeVida.cs"
 "Assets/Scripts/enemigo1.cs"
+"Assets/Scripts/EnemySpawner.cs"
 "Assets/Scripts/ManipuladorVida.cs"
 "Assets/Scripts/Menu - Copy.cs"
 "Assets/Scripts/Menu.cs"
