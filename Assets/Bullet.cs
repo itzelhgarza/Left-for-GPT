@@ -22,7 +22,7 @@ public class Bullet : MonoBehaviour
         Debug.Log("buenas");
         if(collision.gameObject.CompareTag("Enemy")){
            
-            ScoreManager.score++;
+            ScoreManager.score= ScoreManager.score + 10;
            
             Debug.Log("Holaaaa");
             //txtPuntos.GetComponent<Text>().text=puntos.ToString();
