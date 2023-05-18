@@ -395,8 +395,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62e73ce34d68b1947bba06923bf74514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidad: -10
-  damageTime: 0.25
 --- !u!1 &1632166713304363905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1329,7 +1327,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7284336674631059261}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1.7948104, z: 1}

@@ -21,7 +21,8 @@ public class EnemySpawner : MonoBehaviour
             xPos = Random.Range(-16, 13);
             zPos = Random.Range(-20, 1);
             //Instantiate(theEnemy, new Vector3 (xPos, 14, zPos), Quaternion.identity);
-            Instantiate(theEnemy, new Vector3 (530, 14, 464), Quaternion.identity);
+            GameObject clone = Instantiate(theEnemy, new Vector3 (530, 14, 464), Quaternion.identity);
+            clone.AddComponent<ManipuladorVida>();
             yield return new WaitForSeconds(2);
             EnemyCount += 1;
         }

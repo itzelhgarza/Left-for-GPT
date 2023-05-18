@@ -7,8 +7,8 @@ public class ManipuladorVida : MonoBehaviour
 {
     BarraDeVida playerVida;
 
-    public int cantidad;
-    public float damageTime;
+    int cantidad = -10;
+    float damageTime = 0.25f;
     float currentDamageTime;
 
     void Start()
@@ -20,13 +20,36 @@ public class ManipuladorVida : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            
             currentDamageTime += Time.deltaTime;
+            print(currentDamageTime+" yyyyy "+Time.deltaTime);
             if(currentDamageTime > damageTime)
             {
+                print("Holeeeeeeeeee");
                 print(playerVida);
                 playerVida.vida += cantidad;
                 currentDamageTime = 0.0f;
             }
         }
     }
+    /* public void OnTriggerStay(Collider other){
+        if(other.tag =="Player"){
+            playerVida.vida += cantidad;
+            StartCoroutine(DelayMethod(3));
+            //currentDamageTime = 0.0f;
+        }
+    }
+
+    private IEnumerator DelayMethod(float delayTime)
+    {
+        float timer = 0;
+
+        while (timer < delayTime)
+        {
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        Debug.Log("Después del retraso");
+    }*/
 }
