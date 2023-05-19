@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class Bullet : MonoBehaviour
 {
-    //public ScoreManager sm;
     
     public float life = 3;
     private int puntos;
@@ -16,11 +15,11 @@ public class Bullet : MonoBehaviour
         Destroy(gameObject, life);
     }
 
-    void OnCollisionEnter(Collision collision)
+    public void OnTriggerEnter(Collider other)
     {
         
         Debug.Log("buenas");
-        if(collision.gameObject.CompareTag("Enemy")){
+        if(other.gameObject.CompareTag("Enemy")){
            
             ScoreManager.score= ScoreManager.score + 10;
            
@@ -33,5 +32,12 @@ public class Bullet : MonoBehaviour
          Destroy(gameObject);
         
 
+    }
+
+    public void OnCollisionEnter(Collision other)
+    {
+        
+         Destroy(gameObject);
+        
     }
 }
