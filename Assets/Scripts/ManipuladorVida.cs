@@ -7,7 +7,7 @@ public class ManipuladorVida : MonoBehaviour
 {
     BarraDeVida playerVida;
 
-    int cantidad = -10;
+    int cantidad = -20;
     float damageTime = 0.25f;
     float currentDamageTime;
 

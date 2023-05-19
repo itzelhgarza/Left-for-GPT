@@ -7,6 +7,7 @@ public class PickIteam : MonoBehaviour
     // Start is called before the first frame update
 
     public AudioClip clip;
+    BarraDeVida playerVida;
     void Start()
     {
 
@@ -23,6 +24,8 @@ public class PickIteam : MonoBehaviour
         if(other.gameObject.CompareTag("Player")){
             
             AudioSource.PlayClipAtPoint(clip,transform.position);
+            playerVida = GameObject.FindWithTag("Player").GetComponent<BarraDeVida>();
+            playerVida.vida=100;
             Destroy(gameObject);
         
         }else{

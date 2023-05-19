@@ -12,9 +12,9 @@ public class AIEnemyNav : MonoBehaviour
     public float life = 3;
     private int puntos;
     private float xPos;
-    public float yPos;
-    public float zPos;
-
+    private float yPos;
+    private float zPos;
+    public AudioClip clip;
     public void OnTriggerEnter(Collider other)
     {
         
@@ -30,7 +30,7 @@ public class AIEnemyNav : MonoBehaviour
                 zPos=gameObject.transform.position.z;
                 GameObject clone = Instantiate(itemDrop, new Vector3 (xPos, yPos, zPos), Quaternion.identity);
             }
-            
+            AudioSource.PlayClipAtPoint(clip,transform.position);
             Destroy(gameObject);
            }
             
