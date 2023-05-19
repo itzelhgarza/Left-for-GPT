@@ -49,6 +49,7 @@
      <Compile Include="Assets\3D Models\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
      <Compile Include="Assets\Scripts\AIEnemyNav.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\SpawnManager.cs" />
      <Compile Include="Assets\Gun.cs" />
      <Compile Include="Assets\Scripts\Menu - Copy.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
@@ -58,7 +59,6 @@
      <Compile Include="Assets\3D Models\Invector-3rdPersonController_LITE\Scripts\Camera\vThirdPersonCamera.cs" />
      <Compile Include="Assets\Scripts\ManipuladorVida.cs" />
      <Compile Include="Assets\Bullet.cs" />
-     <Compile Include="Assets\Scripts\SpawnManager.cs" />
      <None Include="Assets\3D Models\Supercyan Free Forest Sample\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\3D Models\Supercyan Free Forest Sample\Shaders\SupercyanShaderLighting.cginc" />
      <None Include="Assets\3D Models\Invector-3rdPersonController_LITE\README_Basic.txt" />

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class SpawnManager : MonoBehaviour
 {
     public GameObject [] spawners;
@@ -14,9 +13,7 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        xPos=gameObject.transform.position.x;
-        yPos=gameObject.transform.position.y;
-        zPos=gameObject.transform.position.z;
+        spawners=GameObject.FindGameObjectsWithTag("Spawner");
         StartCoroutine(SpawnEnemies());
     }
 
@@ -30,6 +27,12 @@ public class SpawnManager : MonoBehaviour
     {
         while (EnemyCount < 20)
         {
+            
+            int random = Random.Range(0,spawners.Length);
+            GameObject spawner = spawners[random];
+            xPos=spawner.transform.position.x;
+            yPos=spawner.transform.position.y;
+            zPos=spawner.transform.position.z;
             GameObject clone = Instantiate(theEnemy, new Vector3 (xPos, yPos, zPos), Quaternion.identity);
             clone.AddComponent<ManipuladorVida>();
             yield return new WaitForSeconds(2);
