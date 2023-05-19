@@ -45,5 +45,8 @@ public class AIEnemyNav : MonoBehaviour
     void Update()
     {
         navMeshAgent.destination= movePositionTransform.position;
+        Vector3 direction = movePositionTransform.position - transform.position;
+        Quaternion rotation = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Lerp(transform.rotation, rotation, Time.deltaTime * 10);
     }
 }
