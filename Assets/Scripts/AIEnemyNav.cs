@@ -7,10 +7,13 @@ using UnityEngine.AI;
 public class AIEnemyNav : MonoBehaviour
 {
     private NavMeshAgent navMeshAgent;
+    public GameObject itemDrop;
     [SerializeField] private Transform movePositionTransform;
     public float life = 3;
     private int puntos;
-
+    private float xPos;
+    public float yPos;
+    public float zPos;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -20,6 +23,14 @@ public class AIEnemyNav : MonoBehaviour
             life--;
            if(life<1){
             ScoreManager.score= ScoreManager.score + 100;
+            int random = Random.Range(1,6);
+            if(random==1){
+                xPos=gameObject.transform.position.x;
+                yPos=gameObject.transform.position.y;
+                zPos=gameObject.transform.position.z;
+                GameObject clone = Instantiate(itemDrop, new Vector3 (xPos, yPos, zPos), Quaternion.identity);
+            }
+            
             Destroy(gameObject);
            }
             
@@ -37,6 +48,7 @@ public class AIEnemyNav : MonoBehaviour
     }
     void Start()
     {
+        
         movePositionTransform=GameObject.FindWithTag("Player").GetComponent<Transform>();
         navMeshAgent=GetComponent<NavMeshAgent>();
     }

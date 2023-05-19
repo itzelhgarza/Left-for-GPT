@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\AIEnemyNav.cs" />
      <Compile Include="Assets\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\SpawnManager.cs" />
+     <Compile Include="Assets\Scripts\PickIteam.cs" />
      <Compile Include="Assets\Gun.cs" />
      <Compile Include="Assets\Scripts\Menu - Copy.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
@@ -63,6 +64,7 @@
      <None Include="Assets\3D Models\Supercyan Free Forest Sample\Shaders\SupercyanShaderLighting.cginc" />
      <None Include="Assets\3D Models\Invector-3rdPersonController_LITE\README_Basic.txt" />
      <None Include="Assets\3D Models\Supercyan Free Forest Sample\Shaders\SupercyanShader.shader" />
+     <None Include="Assets\Snowconesolid Assets\Super Rubber Duck Pack\Snowconesolid Assets ReadMe.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity Hub\2021.3.17f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
