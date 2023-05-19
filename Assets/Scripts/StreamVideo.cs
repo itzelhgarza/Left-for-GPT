@@ -13,6 +13,9 @@ public class StreamVideo : MonoBehaviour
     {
         StartCoroutine(PlayVideo());
     }
+    void Update(){
+        StartCoroutine(PlayVideo());
+    }
     IEnumerator PlayVideo()
     {
         videoPlayer.Prepare();
