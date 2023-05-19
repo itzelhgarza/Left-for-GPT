@@ -35,6 +35,7 @@ public class canvas : MonoBehaviour
                 hideCross();
                 hideNewGame();
                 Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 escapePress=false;
                 Time.timeScale = 0;
             }else{
@@ -51,6 +52,7 @@ public class canvas : MonoBehaviour
                 hideMenu();
                 hideCross();
                 Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 Time.timeScale = 0;
             }
     }

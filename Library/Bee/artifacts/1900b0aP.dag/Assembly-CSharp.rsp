@@ -326,13 +326,16 @@
 "Assets/Scripts/BarraDeVida.cs"
 "Assets/Scripts/enemigo1.cs"
 "Assets/Scripts/EnemySpawner.cs"
+"Assets/Scripts/EscrituraGradual.cs"
 "Assets/Scripts/ManipuladorVida.cs"
 "Assets/Scripts/Menu - Copy.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/MouseLook.cs"
+"Assets/Scripts/PickIteam.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/SpawnManager.cs"
+"Assets/Scripts/StreamVideo.cs"
 -langversion:9.0
 
 /deterministic
